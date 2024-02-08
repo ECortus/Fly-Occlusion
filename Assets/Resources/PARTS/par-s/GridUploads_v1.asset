@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad15b1fafb00e8c44b03bcb35a3b8c9f, type: 3}
+  m_Name: GridUploads_v1
+  m_EditorClassIdentifier: 
+  Cabins: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+  Grids: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+  Stats:
+  - Parts:
+    - Type: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+      IndexOffset: {x: 0, y: 0}
+    LevelsOf: 0
+    RequireDistance: 0
+    Sprite: {fileID: 21300000, guid: b1e9d07827a02294c86c8139372be68f, type: 3}
+  - Parts:
+    - Type: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+      IndexOffset: {x: 0, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: 1, y: 0}
+    LevelsOf: 1
+    RequireDistance: 400
+    Sprite: {fileID: 21300000, guid: b1e9d07827a02294c86c8139372be68f, type: 3}
+  - Parts:
+    - Type: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+      IndexOffset: {x: 0, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: -1, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: 1, y: 0}
+    LevelsOf: 2
+    RequireDistance: 1500
+    Sprite: {fileID: 21300000, guid: 5385504dfb3f068459d6506515f334d3, type: 3}
+  - Parts:
+    - Type: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+      IndexOffset: {x: 0, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: -1, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: 1, y: 0}
+    LevelsOf: 3
+    RequireDistance: 1750
+    Sprite: {fileID: 21300000, guid: e356b25b581b97f4c83c26293a0bbc5b, type: 3}
+  - Parts:
+    - Type: {fileID: 11400000, guid: 7172cec7db3e97e46bf4169570ece56a, type: 2}
+      IndexOffset: {x: 0, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: -1, y: 0}
+    - Type: {fileID: 11400000, guid: c4bac62e3594fee478a0dd0eca05ebbf, type: 2}
+      IndexOffset: {x: 1, y: 0}
+    LevelsOf: 4
+    RequireDistance: 2500
+    Sprite: {fileID: 21300000, guid: fcaf692dc826ed1459d88460a6695a46, type: 3}
