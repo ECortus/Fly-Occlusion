@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using ModestTree;
 using UnityEngine;
 
 public class WingsPart : Part
@@ -28,10 +29,34 @@ public class WingsPart : Part
 
     public override ParametersModifier GetFlyParameters()
     {
+        float forceMod = 1;
+
+        int index = PlayerGrid.Instance._cells.IndexOf(_currentGridCell);
+
+        if (index == PlayerGrid.Instance.MainIndex)
+        {
+            forceMod = 1;
+        }
+        else
+        {
+            if (Orientation == PartOrientation.Front)
+            {
+                forceMod = 0.75f;
+            }
+            else if (Orientation == PartOrientation.Top)
+            {
+                forceMod = 0.5f;
+            }
+            else
+            {
+                forceMod = 0.25f;
+            }
+        }
+        
         ParametersModifier modif = new ParametersModifier(
             ModifierType.Wings,
-            pars.GetFlyModifier(Level),
-            direction,
+            pars.GetFlyModifier(Level) * forceMod,
+            Vector3.up,
             transform.localPosition,
             Mass
         );

@@ -297,7 +297,7 @@ public abstract class Part : MonoBehaviour
             if (_dragedPart)
             {
                 SwitchGridCollider(false);
-                PlayerGrid.Instance.SetGridUILocalX(1);
+                PlayerGrid.Instance.SetGridUILocalX(1f);
             }
             else
             {

@@ -44,18 +44,35 @@ public class BoostPart : Part
         }
     }
     
-    private Vector3 direction => new Vector3(transform.forward.x, transform.forward.y, transform.forward.z);
+    private Vector3 direction => transform.forward;
     
     public override ParametersModifier GetFlyParameters()
     {
+        float forceMod = 1;
+        float z = transform.forward.z;
+
+        if (Mathf.Abs(z) < 0.1f)
+        {
+            forceMod = 0.5f;
+        }
+        else if (z <= -0.5f)
+        {
+            forceMod = 1f;
+        }
+        else if (z >= 0.5f)
+        {
+            forceMod = 0.75f;
+        }
+        
         ParametersModifier modif = new ParametersModifier(
             ModifierType.Boost,
-            pars.GetMotorForce(Level),
-            direction,
+            pars.GetMotorForce(Level) * forceMod,
+            // direction,
+            -Vector3.forward,
             transform.localPosition,
             Mass
         );
-
+        
         return modif;
     }
     

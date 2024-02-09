@@ -426,7 +426,7 @@ public class AircraftEngine : MonoBehaviour
                                   * (PlayerController.Instance.Launched ? 1f : 10f)
                                   * (1f + planeMod);
 
-        gravityMultiplier *= PartUnlocked.Wheels ? (PartUnlocked.Wings ? 1f : 1.2f) : 1.35f;
+        gravityMultiplier *= PartUnlocked.Wheels ? (PartUnlocked.Wings ? 1f : 1.6f) : 1.7f;
         
         switch (gravityMode)
         {

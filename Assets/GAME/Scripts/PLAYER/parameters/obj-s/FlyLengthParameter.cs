@@ -15,7 +15,7 @@ public class FlyLengthParameter : ParameterObject
             float force1 = Mathf.Clamp(forceV1.z, 0f, 999f);
             float force2 = Mathf.Clamp(forceV2.z, 0f, 999f);
             
-            Debug.Log("Wheels par - " + force1 + ", wings par - " + force2);
+            // Debug.Log("Wheels par - " + force1 + ", wings par - " + force2);
             float force = Mathf.Pow(force1, 2) + Mathf.Pow(force2, 2);
 
             return Mathf.Pow(force, 1 / 2f);

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class wWheelsPart : Part
@@ -42,13 +43,25 @@ public class wWheelsPart : Part
     
     public override ParametersModifier GetFlyParameters()
     {
-        int mod = Vector3.Angle(-transform.up, Vector3.down) >= 90f ? 0 : 1;
-        Debug.Log(gameObject.name + " mod - " + mod + ", angle - " + Vector3.Angle(-transform.up, Vector3.down));
+        float forceMod = 1;
+
+        if (Orientation == PartOrientation.Bottom)
+        {
+            forceMod = 1;
+        }
+        else if (Orientation == PartOrientation.Top)
+        {
+            forceMod = 0.25f;
+        }
+        else if (Orientation == PartOrientation.Left || Orientation == PartOrientation.Right)
+        {
+            forceMod = 0.5f;
+        }
         
         ParametersModifier modif = new ParametersModifier(
             ModifierType.Wheels,
-            pars.GetAccelerationModifier(Level) * mod,
-            direction * mod,
+            pars.GetAccelerationModifier(Level) * forceMod,
+            -Vector3.forward,
             transform.localPosition,
             Mass
         );

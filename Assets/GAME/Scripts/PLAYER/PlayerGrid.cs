@@ -32,7 +32,7 @@ public class PlayerGrid : MonoBehaviour
     [field: SerializeField] public Transform parentForParts { get; private set; }
     
     [SerializeField] private GameObject gridUI;
-    public void SetGridUILocalX(int x)
+    public void SetGridUILocalX(float x)
     {
         gridUI.transform.localPosition = new Vector3(
             x,
