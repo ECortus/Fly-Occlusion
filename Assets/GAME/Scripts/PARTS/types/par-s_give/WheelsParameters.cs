@@ -11,5 +11,5 @@ public class WheelsParameters : ScriptableObject
     [SerializeField] private float multiple = 0.2f;
 
     public float Multiplier(int lvl) => lvl * multiple;
-    public float GetAccelerationModifier(int lvl) => defaultAccelerationModifier * (1f + Multiplier(lvl));
+    public float GetAccelerationModifier(int lvl) => defaultAccelerationModifier + Multiplier(lvl);
 }

@@ -45,19 +45,22 @@ public class wWheelsPart : Part
     {
         float forceMod = 1;
 
-        if (Orientation == PartOrientation.Bottom)
+        if (_currentGridCell)
         {
-            forceMod = 1;
+            if (Orientation == PartOrientation.Bottom)
+            {
+                forceMod = 1;
+            }
+            else if (Orientation == PartOrientation.Top)
+            {
+                forceMod = 0.25f;
+            }
+            else if (Orientation == PartOrientation.Left || Orientation == PartOrientation.Right)
+            {
+                forceMod = 0.5f;
+            }
         }
-        else if (Orientation == PartOrientation.Top)
-        {
-            forceMod = 0.25f;
-        }
-        else if (Orientation == PartOrientation.Left || Orientation == PartOrientation.Right)
-        {
-            forceMod = 0.5f;
-        }
-        
+
         ParametersModifier modif = new ParametersModifier(
             ModifierType.Wheels,
             pars.GetAccelerationModifier(Level) * forceMod,

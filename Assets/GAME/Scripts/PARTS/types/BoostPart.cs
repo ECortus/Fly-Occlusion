@@ -25,7 +25,7 @@ public class BoostPart : Part
             if (!trail.isPlaying) trail.Play();
             rotateTarget = 1;
             
-            VibrationController.Instance.VibrateLow();
+            // VibrationController.Instance.VibrateLow();
         }
         else
         {
@@ -51,17 +51,20 @@ public class BoostPart : Part
         float forceMod = 1;
         float z = transform.forward.z;
 
-        if (Mathf.Abs(z) < 0.1f)
+        if (_currentGridCell)
         {
-            forceMod = 0.5f;
-        }
-        else if (z <= -0.5f)
-        {
-            forceMod = 1f;
-        }
-        else if (z >= 0.5f)
-        {
-            forceMod = 0.75f;
+            if (Mathf.Abs(z) < 0.1f)
+            {
+                forceMod = 0.5f;
+            }
+            else if (z <= -0.5f)
+            {
+                forceMod = 1f;
+            }
+            else if (z >= 0.5f)
+            {
+                forceMod = 0.75f;
+            }
         }
         
         ParametersModifier modif = new ParametersModifier(

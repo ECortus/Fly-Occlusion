@@ -10,5 +10,5 @@ public class BoostParameters : ScriptableObject
     [SerializeField] private float multiple = 0.2f;
 
     public float Multiplier(int lvl) => lvl * multiple;
-    public float GetMotorForce(int lvl) => defaultMotorForce * (1f + Multiplier(lvl));
+    public float GetMotorForce(int lvl) => defaultMotorForce + Multiplier(lvl);
 }

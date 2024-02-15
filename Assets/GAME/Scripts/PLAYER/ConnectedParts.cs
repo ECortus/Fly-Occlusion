@@ -40,18 +40,13 @@ public class ConnectedParts : MonoBehaviour
     public float Balance = 0;
     public float Mass = 0f;
 
-    public const float PlaneParameterRelativity = 2.25f;
+    private const float PlaneParameterRelativity = 4f;
 
     public float MaxBoostModificator
     {
         get
         {
-            if (!_cabins) _cabins = Resources.Load<PartType>("PARTS/Cabin");
-            if (!_grids) _grids = Resources.Load<PartType>("PARTS/Grid");
             if (!_fans) _fans = Resources.Load<PartType>("PARTS/Boost");
-            if (!_wheels) _wheels = Resources.Load<PartType>("PARTS/Wheels");
-            if (!_wings) _wings = Resources.Load<PartType>("PARTS/Wings");
-            
             return _fans.GetPart(4).GetFlyParameters().Force + DefaultBoost;
         }
     }
@@ -60,15 +55,27 @@ public class ConnectedParts : MonoBehaviour
     {
         get
         {
-            if (!_cabins) _cabins = Resources.Load<PartType>("PARTS/Cabin");
-            if (!_grids) _grids = Resources.Load<PartType>("PARTS/Grid");
-            if (!_fans) _fans = Resources.Load<PartType>("PARTS/Boost");
             if (!_wheels) _wheels = Resources.Load<PartType>("PARTS/Wheels");
             if (!_wings) _wings = Resources.Load<PartType>("PARTS/Wings");
             
-            return (_wheels.GetPart(4).GetFlyParameters().Force + DefaultAcceleration) / PlaneParameterRelativity
-                   + (_wings.GetPart(4).GetFlyParameters().Force + DefaultPlane) * PlaneParameterRelativity;
+            // return (_wheels.GetPart(4).GetFlyParameters().Force + DefaultAcceleration) / PlaneParameterRelativity
+            //        + (_wings.GetPart(4).GetFlyParameters().Force + DefaultPlane) * PlaneParameterRelativity;
+
+            Part wheel = _wheels.GetPart(4);
+            Part wings = _wings.GetPart(4);
+            
+            float wheelMax = wheel.GetFlyParameters().Force + DefaultAcceleration;
+            float wingMax = wings.GetFlyParameters().Force + DefaultPlane;
+            
+            // Debug.Log("Wheels max - " + wheelMax + ", wings max - " + wingMax);
+
+            return DistanceFormula(wingMax, wheelMax);
         }
+    }
+
+    public float DistanceFormula(float plane, float wheel)
+    {
+        return Mathf.Pow(Mathf.Pow(plane * PlaneParameterRelativity, 2) + Mathf.Pow(wheel / PlaneParameterRelativity, 2), 1/2f);
     }
     
     public float MaxMass
@@ -232,14 +239,21 @@ public class ConnectedParts : MonoBehaviour
                 if (mod != null && mod.Type == ModifierType.Boost)
                 {
                     direction += mod.Direction;
-                    force += mod.Force;
+
+                    if (force < mod.Force)
+                    {
+                        force = mod.Force;
+                    }
+                    // force += mod.Force;
+                    
                     count++;
                 }
             }
         }
 
         BoostDirection = (direction + (count > 0 ? Vector3.zero : DefaultBoostDirection)).normalized;
-        BoostModificator = (count > 0 ? force / count : 0) + DefaultBoost;
+        // BoostModificator = (count > 0 ? force / count : 0) + DefaultBoost;
+        BoostModificator = force + DefaultBoost;
         
         // Debug.Log("BD - " + BoostDirection + ", BM - " + BoostModificator + ", MDM - " + MaxBoostModificator);
     }
@@ -262,7 +276,12 @@ public class ConnectedParts : MonoBehaviour
                 {
                     // Debug.Log(mod.Direction);
                     direction += mod.Direction;
-                    force += mod.Force;
+                    
+                    if (force < mod.Force)
+                    {
+                        force = mod.Force;
+                    }
+                    // force += mod.Force;
                 }
             }
         }
@@ -291,14 +310,21 @@ public class ConnectedParts : MonoBehaviour
                 if (mod != null && mod.Type == ModifierType.Wings)
                 {
                     direction += mod.Direction;
-                    force += mod.Force;
+                    
+                    if (force < mod.Force)
+                    {
+                        force = mod.Force;
+                    }
+                    // force += mod.Force;
+                    
                     count++;
                 }
             }
         }
         
         PlaneDirection = (direction + DefaultPlaneDirection).normalized;
-        PlaneModificator = (count > 0 ? force / count : 0f) + DefaultPlane;
+        // PlaneModificator = (count > 0 ? force / count : 0f) + DefaultPlane;
+        PlaneModificator = force + DefaultPlane;
     }
 
     void CalculateBalance()

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class VibrationSetting : MonoBehaviour
 {
-    private PlayerSettings _settings;
+    private PlayerSettingsSetup _settings;
 
     private Toggle toggle;
     private GameObject offPart;
@@ -18,7 +18,7 @@ public class VibrationSetting : MonoBehaviour
 
     void Start()
     {
-        _settings = Resources.Load<PlayerSettings>("SETTINGS/PlayerSettings");
+        _settings = Resources.Load<PlayerSettingsSetup>("SETTINGS/PlayerSettings");
 
         toggle = GetComponent<Toggle>();
         

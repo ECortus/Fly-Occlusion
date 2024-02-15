@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8542709598187814862}
   - component: {fileID: 2241411049212060860}
   - component: {fileID: 6887820648576537553}
+  - component: {fileID: 8285894820570215974}
   m_Layer: 0
   m_Name: GemPickUp_5
   m_TagString: Untagged
@@ -74,6 +75,33 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.75
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!205 &8285894820570215974
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890317708357920830}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4488865048329710974}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4488865048329710974}
+  - screenRelativeHeight: 0.015
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4488865048329710974}
+  m_Enabled: 1
 --- !u!1 &6419739045206197450
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,48 +226,13 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6673794559002551721, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8446885021478236155}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}
 --- !u!23 &4488865048329710974 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -693396932640005380, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}
   m_PrefabInstance: {fileID: 5200296183762669442}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4965851917603533523 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}
-  m_PrefabInstance: {fileID: 5200296183762669442}
-  m_PrefabAsset: {fileID: 0}
---- !u!205 &8446885021478236155
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4965851917603533523}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.6
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4488865048329710974}
-  - screenRelativeHeight: 0.3
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4488865048329710974}
-  - screenRelativeHeight: 0.01
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 4488865048329710974}
-  m_Enabled: 1
 --- !u!4 &5738026480890488937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f96fdf33b9196842b328a55bfa885da, type: 3}

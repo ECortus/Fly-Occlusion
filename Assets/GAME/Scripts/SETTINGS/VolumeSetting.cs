@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class VolumeSetting : MonoBehaviour
 {
-    private PlayerSettings _settings;
+    private PlayerSettingsSetup _settings;
     private AudioMixer Master => _settings.Mixer;
 
     private Toggle toggle;
@@ -21,7 +21,7 @@ public class VolumeSetting : MonoBehaviour
     
     void Start()
     {
-        _settings = Resources.Load<PlayerSettings>("SETTINGS/PlayerSettings");
+        _settings = Resources.Load<PlayerSettingsSetup>("SETTINGS/PlayerSettings");
         
         toggle = GetComponent<Toggle>();
         

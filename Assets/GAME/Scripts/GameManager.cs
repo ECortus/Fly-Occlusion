@@ -115,7 +115,7 @@ public class GameManager : MonoBehaviour
         GameStarted = false;
         GameMerge();
         
-        VibrationController.Instance.Vibrate();
+        VibrationController.Instance.VibrateHeavy();
         
         await DarkEclipse.Play();
     }
@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
         GameStarted = true;
         GameStart();
         
-        VibrationController.Instance.Vibrate();
+        VibrationController.Instance.VibrateHeavy();
     }
 
     public void RecordMaxFlyLength()
@@ -147,6 +147,6 @@ public class GameManager : MonoBehaviour
         GameStarted = false;
         GameFinish();
         
-        VibrationController.Instance.Vibrate();
+        VibrationController.Instance.VibrateHeavy();
     }
 }

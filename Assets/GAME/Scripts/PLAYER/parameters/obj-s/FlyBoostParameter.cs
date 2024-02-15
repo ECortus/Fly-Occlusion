@@ -32,7 +32,7 @@ public class FlyBoostParameter : ParameterObject
             // }
 
             // return Mathf.Pow(force, 1/2f);
-            return Formula(force1, force2);
+            return Formula(force1, 0);
         }
     }
 
@@ -47,5 +47,5 @@ public class FlyBoostParameter : ParameterObject
         return first + second / 6f;
     }
 
-    public override float MaxValue => Formula(ConnectedParts.Instance.MaxBoostModificator, ConnectedParts.Instance.MaxBoostModificator);
+    public override float MaxValue => Formula(ConnectedParts.Instance.MaxBoostModificator, 0);
 }

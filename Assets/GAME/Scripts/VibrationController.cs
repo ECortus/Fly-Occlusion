@@ -21,12 +21,24 @@ public class VibrationController : MonoBehaviour
         Vibration.Vibrate();
     }
     
+    public void VibrateHeavy()
+    {
+        if (!SettingsModes.Vibration) return;
+        
+#if UNITY_ANDROID
+        Vibration.VibrateAndroid(125);
+#elif UNITY_IOS
+        Vibration.VibrateIOS(ImpactFeedbackStyle.Heavy);
+#endif
+        
+    }
+    
     public void VibrateLow()
     {
         if (!SettingsModes.Vibration) return;
         
 #if UNITY_ANDROID
-        Vibration.VibrateAndroid(50);
+        Vibration.VibrateAndroid(25);
 #elif UNITY_IOS
         Vibration.VibrateIOS(ImpactFeedbackStyle.Soft);
 #endif

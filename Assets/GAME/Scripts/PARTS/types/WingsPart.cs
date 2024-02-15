@@ -31,28 +31,31 @@ public class WingsPart : Part
     {
         float forceMod = 1;
 
-        int index = PlayerGrid.Instance._cells.IndexOf(_currentGridCell);
+        if (_currentGridCell)
+        {
+            int index = PlayerGrid.Instance._cells.IndexOf(_currentGridCell);
 
-        if (index == PlayerGrid.Instance.MainIndex)
-        {
-            forceMod = 1;
-        }
-        else
-        {
-            if (Orientation == PartOrientation.Front)
+            if (index == PlayerGrid.Instance.MainIndex)
             {
-                forceMod = 0.75f;
-            }
-            else if (Orientation == PartOrientation.Top)
-            {
-                forceMod = 0.5f;
+                forceMod = 1;
             }
             else
             {
-                forceMod = 0.25f;
+                if (Orientation == PartOrientation.Front)
+                {
+                    forceMod = 0.75f;
+                }
+                else if (Orientation == PartOrientation.Top)
+                {
+                    forceMod = 0.5f;
+                }
+                else
+                {
+                    forceMod = 0.25f;
+                }
             }
         }
-        
+
         ParametersModifier modif = new ParametersModifier(
             ModifierType.Wings,
             pars.GetFlyModifier(Level) * forceMod,

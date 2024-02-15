@@ -8,14 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_clouds 1
-  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
+  m_Shader: {fileID: 14002, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _WINDQUALITY_NONE
   m_InvalidKeywords:
   - _HALFTONESHAPE_DOT
-  m_LightmapFlags: 6
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -178,7 +178,7 @@ Material:
     - _FlattenGI: 0
     - _FlipbookMode: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.313
+    - _Glossiness: 0
     - _GlossinessSource: 0
     - _GlossyReflections: 1
     - _HairSpecExponent: 128
@@ -202,7 +202,7 @@ Material:
     - _HatchingSmoothness: 0.1
     - _HueVariationKwToggle: 0
     - _LightingEnabled: 1
-    - _Metallic: 0.954
+    - _Metallic: 0
     - _Mode: 0
     - _NoiseScale: 1
     - _NoiseStrength: 0.1
@@ -243,7 +243,7 @@ Material:
     - _SubsurfaceIndirect: 0.25
     - _SubsurfaceKwToggle: 0
     - _Surface: 0
-    - _TwoSided: 2
+    - _TwoSided: 0
     - _UVSec: 0
     - _UseRampColor: 0
     - _WindQuality: 0
@@ -251,7 +251,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.85882354, g: 0.85882354, b: 0.85882354, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}

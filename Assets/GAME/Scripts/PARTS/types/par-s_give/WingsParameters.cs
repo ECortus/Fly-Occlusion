@@ -11,5 +11,5 @@ public class WingsParameters : ScriptableObject
     [SerializeField] private float multiple = 0.2f;
 
     public float Multiplier(int lvl) => lvl * multiple;
-    public float GetFlyModifier(int lvl) => defaultFlyModifier * (1f + Multiplier(lvl));
+    public float GetFlyModifier(int lvl) => defaultFlyModifier + Multiplier(lvl);
 }

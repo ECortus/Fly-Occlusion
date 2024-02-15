@@ -8,7 +8,7 @@ using UnityEngine;
 
 public abstract class Part : MonoBehaviour
 {
-    private PlayerSettings _settings;
+    private PlayerSettingsSetup _settings;
     
     [field: SerializeField] public PartType Type { get; private set; }
     [field: SerializeField] public int Level { get; private set; }
@@ -224,7 +224,7 @@ public abstract class Part : MonoBehaviour
 
     void Init()
     {
-        _settings = Resources.Load<PlayerSettings>("SETTINGS/PlayerSettings");
+        _settings = Resources.Load<PlayerSettingsSetup>("SETTINGS/PlayerSettings");
         
         Object = getChildGameObject("obj");
 
@@ -398,7 +398,8 @@ public abstract class Part : MonoBehaviour
         {
             render.GetPropertyBlock(renderBlock);
             // renderBlock.SetColor("_Highlight", canPlace ? Color.clear : Color.red);
-            renderBlock.SetColor("_BaseColor", canPlace ? Color.white : Color.red);
+            // renderBlock.SetColor("_Color", canPlace ? Color.white : Color.red);
+            renderBlock.SetColor("_ColorDim", canPlace ? Color.white : Color.red);
             render.SetPropertyBlock(renderBlock);
         }
     }
