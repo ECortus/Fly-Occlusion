@@ -49,21 +49,20 @@ public class BoostPart : Part
     public override ParametersModifier GetFlyParameters()
     {
         float forceMod = 1;
-        float z = transform.forward.z;
 
         if (_currentGridCell)
         {
-            if (Mathf.Abs(z) < 0.1f)
+            if (Orientation == PartOrientation.Top)
             {
-                forceMod = 0.5f;
+                forceMod = 0.2f;
             }
-            else if (z <= -0.5f)
+            else if (Orientation == PartOrientation.Left)
             {
                 forceMod = 1f;
             }
-            else if (z >= 0.5f)
+            else if (Orientation == PartOrientation.Right)
             {
-                forceMod = 0.75f;
+                forceMod = 0.4f;
             }
         }
         

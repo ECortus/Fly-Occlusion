@@ -40,7 +40,7 @@ public class ConnectedParts : MonoBehaviour
     public float Balance = 0;
     public float Mass = 0f;
 
-    private const float PlaneParameterRelativity = 4f;
+    private const float PlaneParameterRelativity = 2.5f;
 
     public float MaxBoostModificator
     {
@@ -64,7 +64,9 @@ public class ConnectedParts : MonoBehaviour
             Part wheel = _wheels.GetPart(4);
             Part wings = _wings.GetPart(4);
             
-            float wheelMax = wheel.GetFlyParameters().Force + DefaultAcceleration;
+            float wheelMax = wheel.GetFlyParameters().Force * 1f * 2f +
+                             wheel.GetFlyParameters().Force * 0.5f * 2f +
+                             wheel.GetFlyParameters().Force * 0.25f * 2f + DefaultAcceleration;
             float wingMax = wings.GetFlyParameters().Force + DefaultPlane;
             
             // Debug.Log("Wheels max - " + wheelMax + ", wings max - " + wingMax);
@@ -240,11 +242,11 @@ public class ConnectedParts : MonoBehaviour
                 {
                     direction += mod.Direction;
 
-                    if (force < mod.Force)
-                    {
-                        force = mod.Force;
-                    }
-                    // force += mod.Force;
+                    // if (force < mod.Force)
+                    // {
+                    //     force = mod.Force;
+                    // }
+                    force += mod.Force;
                     
                     count++;
                 }
@@ -277,11 +279,11 @@ public class ConnectedParts : MonoBehaviour
                     // Debug.Log(mod.Direction);
                     direction += mod.Direction;
                     
-                    if (force < mod.Force)
-                    {
-                        force = mod.Force;
-                    }
-                    // force += mod.Force;
+                    // if (force < mod.Force)
+                    // {
+                    //     force = mod.Force;
+                    // }
+                    force += mod.Force;
                 }
             }
         }

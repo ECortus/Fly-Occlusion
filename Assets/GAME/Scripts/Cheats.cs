@@ -6,11 +6,11 @@ public class Cheats : MonoBehaviour
 {
     public void PlusGold()
     {
-        Gold.Instance.Plus(500);
+        Gold.Instance.Plus(50000);
     }
     
     public void PlusGem()
     {
-        Gem.Instance.Plus(500);
+        Gem.Instance.Plus(50000);
     }
 }

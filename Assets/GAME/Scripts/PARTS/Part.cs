@@ -501,6 +501,14 @@ public abstract class Part : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnDestroy()
+    {
+        RemoveMod();
+        
+        SetActions(false);
+        GameManager.OnMergeGame -= DestroyPart;
+    }
+
     protected virtual void OnMouseDown()
     {
         if (GameManager.Instance.GameStarted || _blockAll || BlockMove) return;

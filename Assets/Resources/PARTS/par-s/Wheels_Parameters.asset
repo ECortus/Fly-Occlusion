@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae2bdd68dbc7cb2499738aab3ab973a9, type: 3}
   m_Name: Wheels_Parameters
   m_EditorClassIdentifier: 
-  defaultAccelerationModifier: 0.4
-  multiple: 0.3
+  defaultAccelerationModifier: 0.075
+  multiple: 0.075

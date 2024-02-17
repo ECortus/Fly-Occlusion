@@ -47,5 +47,7 @@ public class FlyBoostParameter : ParameterObject
         return first + second / 6f;
     }
 
-    public override float MaxValue => Formula(ConnectedParts.Instance.MaxBoostModificator, 0);
+    public override float MaxValue => Formula(ConnectedParts.Instance.MaxBoostModificator * 1f +
+                                              ConnectedParts.Instance.MaxBoostModificator * 0.4f + 
+                                              ConnectedParts.Instance.MaxBoostModificator * 0.2f * 2, 0);
 }
