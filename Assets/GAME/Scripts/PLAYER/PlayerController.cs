@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Zenject;
@@ -193,9 +194,13 @@ public class PlayerController : MonoBehaviour
 
     public void ForceFinish()
     {
-        GameManager.OnGameFinish -= Crash;
+        foreach (var VARIABLE in Parts)
+        {
+            VARIABLE.SetActions(false);
+        }
+        
+        Debug.Log("forced");
         GameManager.Instance.FinishGame();
-        GameManager.OnGameFinish += Crash;
     }
 
     void ResetMouse()

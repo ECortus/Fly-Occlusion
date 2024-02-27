@@ -16,6 +16,8 @@ public class SectionXMultiplier : MonoBehaviour
     {
         Entered = false;
         platform = GetComponentInParent<PlatformX5>();
+
+        GameManager.OnMergeGame += Reset;
     }
     
     private void OnTriggerEnter(Collider other)
@@ -24,6 +26,11 @@ public class SectionXMultiplier : MonoBehaviour
         {
             Entered = true;
         }
+    }
+
+    void Reset()
+    {
+        Entered = false;
     }
     
     private void OnTriggerExit(Collider other)

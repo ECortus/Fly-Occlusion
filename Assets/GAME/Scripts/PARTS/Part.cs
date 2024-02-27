@@ -471,7 +471,7 @@ public abstract class Part : MonoBehaviour
         GameManager.OnMergeGame += DestroyPart;
     }
 
-    private void SetActions(bool state)
+    public void SetActions(bool state)
     {
         if (state)
         {

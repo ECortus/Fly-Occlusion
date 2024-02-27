@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7210579437907569253}
   - component: {fileID: 358877834382048742}
   - component: {fileID: 4654981390602075869}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 7278673490975026842}
   - component: {fileID: 4078170176708370327}
   - component: {fileID: 5864474126149915181}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 2091335259147279447}
   - component: {fileID: 4046916756802467230}
   - component: {fileID: 9127794840275550509}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NOBREAKING_ZONE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 8315065734829686507}
   - component: {fileID: 7895053756017898967}
   - component: {fileID: 7624791502029399118}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: rampbody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9050065124601601211}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7806079297543235766}
-  - {fileID: 2668881141223519621}
   - {fileID: 550837235753219049}
   - {fileID: 3908105041164746448}
   - {fileID: 8746853052959038882}
@@ -434,7 +433,7 @@ GameObject:
   - component: {fileID: 6892842133952531785}
   - component: {fileID: 517516692649181703}
   - component: {fileID: 4277890560459878571}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,7 +591,7 @@ GameObject:
   - component: {fileID: 7806079297543235766}
   - component: {fileID: 1583333495198743687}
   - component: {fileID: 345919923845919137}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: antenna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3552514798811313776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,6 +732,7 @@ Transform:
   - {fileID: 2091335259147279447}
   - {fileID: 9050065124601601211}
   - {fileID: 698333292070999613}
+  - {fileID: 2668881141223519621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!205 &399891189721655307
@@ -796,7 +796,7 @@ GameObject:
   - component: {fileID: 7690385430710531712}
   - component: {fileID: 4582041721652259769}
   - component: {fileID: 7665875346440286713}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: stripes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -987,7 +987,7 @@ GameObject:
   - component: {fileID: 81717740019319154}
   - component: {fileID: 6079009920917545013}
   - component: {fileID: 4135034695249540842}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1200,7 +1200,7 @@ GameObject:
   - component: {fileID: 4938244806965354526}
   - component: {fileID: 494994843881357235}
   - component: {fileID: 2226084857726640432}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: propellers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,12 +1215,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8015047314711465095}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: -0.0035}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: -0.3499999, z: 0}
+  m_LocalScale: {x: 100, y: 99.999985, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 9050065124601601211}
+  m_Father: {fileID: 646837468897111841}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4938244806965354526
 MeshFilter:
@@ -1305,7 +1305,7 @@ GameObject:
   - component: {fileID: 7224148060635351510}
   - component: {fileID: 193801440562050177}
   - component: {fileID: 5414547289456842585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ACCELERATION_ZONE
   m_TagString: Untagged
   m_Icon: {fileID: 0}

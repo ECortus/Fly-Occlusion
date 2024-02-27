@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4363561421800036224}
   - component: {fileID: 7615999507880404914}
   - component: {fileID: 3736917177299772147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 7020676008129617817}
   - component: {fileID: 4163516927455218194}
   - component: {fileID: 552465430342731674}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: x5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   - component: {fileID: 4839821530181479529}
   - component: {fileID: 5452811674557930976}
   - component: {fileID: 9123512322747069376}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: antenna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -371,13 +371,14 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 5, y: 8.1, z: 350}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalScale: {x: 7, y: 4.6666665, z: 4.6666665}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3566788153552405625}
   - {fileID: 2255936109749343888}
   - {fileID: 5555790366685482331}
   - {fileID: 1258753457854032133}
+  - {fileID: 3240689465840204106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!205 &697320238319838462
@@ -543,7 +544,7 @@ GameObject:
   - component: {fileID: 1199647496620900731}
   - component: {fileID: 4399146252503447938}
   - component: {fileID: 6916272524771268330}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -559,7 +560,7 @@ Transform:
   m_GameObject: {fileID: 2452345478985144668}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -646,7 +647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3566788153552405625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: safe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +683,7 @@ GameObject:
   - component: {fileID: 7032356221709872730}
   - component: {fileID: 5798015816795359298}
   - component: {fileID: 6121273173208326654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,7 +783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5555790366685482331}
   - component: {fileID: 1905445270133817985}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: multipliers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +842,7 @@ GameObject:
   - component: {fileID: 1531160275643778142}
   - component: {fileID: 8632800059399896874}
   - component: {fileID: 3919816352228250514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: x3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -960,7 +961,7 @@ GameObject:
   - component: {fileID: 8396532672037822194}
   - component: {fileID: 5955943574595429837}
   - component: {fileID: 5550973367314625155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: x2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1080,7 @@ GameObject:
   - component: {fileID: 2755889373361855618}
   - component: {fileID: 3303520119552055304}
   - component: {fileID: 1420896861135347987}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: x2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2255936109749343888}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1215,7 +1216,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4839821530181479529}
-  - {fileID: 3240689465840204106}
   - {fileID: 783516912038868411}
   - {fileID: 3279261433494531066}
   - {fileID: 5972368999634590540}
@@ -1249,12 +1249,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6053882346030218582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 99.99998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2255936109749343888}
+  m_Father: {fileID: 5488873328730311472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9197545148019107131
 MeshFilter:
@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 6965125738585174624}
   - component: {fileID: 1874351984471915781}
   - component: {fileID: 5925035093257847699}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,7 +1607,7 @@ GameObject:
   - component: {fileID: 8407808268222458889}
   - component: {fileID: 8200600544661805073}
   - component: {fileID: 2961083995278528187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: x3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 3998475824725043271}
   - component: {fileID: 632402641041446098}
   - component: {fileID: 3057481664985544058}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1831,7 +1831,7 @@ GameObject:
   - component: {fileID: 5745747471229662544}
   - component: {fileID: 4662607939454439776}
   - component: {fileID: 1079378143956965518}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wing_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
