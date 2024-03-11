@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using Cinemachine;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
@@ -222,6 +223,8 @@ public class Tutorial : MonoBehaviour
         SetAllButtons(true);
 
         IterationsCompleted = 1;
+        
+        AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-01", "Boost-Tutorial");
     }
     
     private async void SecondIteration()
@@ -342,6 +345,8 @@ public class Tutorial : MonoBehaviour
         SetAllButtons(true);
 
         IterationsCompleted = 2;
+        
+        AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-03", "Wheels-Tutorial");
     }
     
     private async void ThirdIteration()
@@ -412,6 +417,8 @@ public class Tutorial : MonoBehaviour
         SetAllButtons(true);
 
         IterationsCompleted = 3;
+        
+        AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-04", "Wings-Tutorial");
     }
     
     private async void FourthIteration()
@@ -461,6 +468,8 @@ public class Tutorial : MonoBehaviour
         SetAllButtons(true);
 
         IterationsCompleted = 4;
+        
+        AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-05", "Additional-Block-Tutorial");
     }
 
     public bool PlaneIterationComplete
@@ -475,7 +484,7 @@ public class Tutorial : MonoBehaviour
 
     public  void PlaneIteration()
     {
-        _PlaneIteration();
+        if (!PlaneIterationComplete) _PlaneIteration();
     }
 
     private async void _PlaneIteration()
@@ -498,6 +507,8 @@ public class Tutorial : MonoBehaviour
         SetAllButtons(true);
 
         PlaneIterationComplete = true;
+        
+        AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-2", "Plane-Control-Tutorial");
     }
 
     void SetAllButtons(bool state)

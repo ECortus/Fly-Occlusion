@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 
 public static class Upgrades
@@ -14,7 +15,11 @@ public static class Upgrades
         }
     }
 
-    public static void IncreaseLaunchPower() => LaunchPower++;
+    public static void IncreaseLaunchPower()
+    {
+        LaunchPower++;
+        AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"LaunchPower-Upgrade-LVL-{LaunchPower.ToString()}");
+    }
     public static void ResetLaunchPower() => LaunchPower = 0;
     
     public static int CurrencyAmount
@@ -27,7 +32,11 @@ public static class Upgrades
         }
     }
     
-    public static void IncreaseCurrencyAmount() => CurrencyAmount++;
+    public static void IncreaseCurrencyAmount()
+    { 
+        CurrencyAmount++;
+        AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"CurrencyAmount-Upgrade-LVL-{CurrencyAmount.ToString()}");
+    }
     public static void ResetCurrencyAmount() => CurrencyAmount = 0;
     
     public static int PartsBuyLevel
@@ -40,6 +49,10 @@ public static class Upgrades
         }
     }
     
-    public static void IncreasePartsBuyLevel() => PartsBuyLevel++;
+    public static void IncreasePartsBuyLevel()
+    {
+        PartsBuyLevel++;
+        AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"PartsBuyLevel-Upgrade-LVL-{PartsBuyLevel.ToString()}");
+    }
     public static void ResetPartsBuyLevel() => PartsBuyLevel = 0;
 }

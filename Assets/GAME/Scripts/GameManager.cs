@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using Unity.VisualScripting;
@@ -143,6 +144,8 @@ public class GameManager : MonoBehaviour
     public void FinishGame()
     {
         if (!GameStarted) return;
+        
+        AppsFlyerEventsSuite.AF_LEVEL_ACHIEVED("MAIN", ((int)(FlyHeight)).ToString() + " m");
         
         GameStarted = false;
         GameFinish();

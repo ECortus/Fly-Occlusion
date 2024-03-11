@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 using UnityEngine.UI;
 using Cysharp.Threading.Tasks;
@@ -118,6 +119,8 @@ public class GetPartUpgrade : MonoBehaviour
             
             WheelsLevelUnlocked = level;
         }
+        
+        AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"Unlock-Part-Level-{level.ToString()}-Type-{type.Category.ToString()}");
         
         sprite.sprite = type.GetPart(level).Sprite;
         

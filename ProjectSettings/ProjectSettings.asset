@@ -76,6 +76,7 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
+  androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -136,8 +137,13 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.12b
-  preloadedAssets: []
+  visionOSBundleVersion: 1.0
+  tvOSBundleVersion: 1.0
+  bundleVersion: 1
+  preloadedAssets:
+  - {fileID: -55131504048790463, guid: 5b29f3613b3afd441a33cde3686fcfad, type: 2}
+  - {fileID: 11400000, guid: 299855b93958a2442868af11a1fa4ec5, type: 2}
+  - {fileID: 11400000, guid: b5cea12facb1e4743b911a11175fc4b8, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -160,6 +166,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.RH.FlyOcclusion
     Standalone: com.R-H.Fly-Occlusion
+    iPhone: com.R-H.Fly-Occlusion
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -168,7 +175,7 @@ PlayerSettings:
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
-  AndroidTargetSdkVersion: 33
+  AndroidTargetSdkVersion: 34
   AndroidPreferredInstallLocation: 2
   aotOptions: 
   stripEngineCode: 1
@@ -251,9 +258,9 @@ PlayerSettings:
   useCustomMainManifest: 1
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 1
-  useCustomLauncherGradleManifest: 1
-  useCustomBaseGradleTemplate: 0
-  useCustomGradlePropertiesTemplate: 0
+  useCustomLauncherGradleManifest: 0
+  useCustomBaseGradleTemplate: 1
+  useCustomGradlePropertiesTemplate: 1
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 1
   AndroidTargetArchitectures: 3
@@ -752,9 +759,9 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: OBI_ONI_SUPPORTED
+    Android: OBI_ONI_SUPPORTED;gameanalytics_max_enabled
     Standalone: OBI_ONI_SUPPORTED
-    iPhone: OBI_ONI_SUPPORTED
+    iPhone: OBI_ONI_SUPPORTED;gameanalytics_max_enabled
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -829,7 +836,7 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    Purchasing: 0
+    Purchasing: 1
     Unity Ads: 0
   luminIcon:
     m_Name: 

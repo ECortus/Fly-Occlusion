@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 
 public class GemPickUp : MonoBehaviour
@@ -54,6 +55,8 @@ public class GemPickUp : MonoBehaviour
         PlayerController.Instance.PlayBarrelRoll(accelerateTime);
         
         Gem.Instance.Plus(_amount);
+        
+        AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"Crystal-PickUp-Amount-{_amount.ToString()}-On-Fly-Distance-{((int)GameManager.Instance.FlyLength).ToString()}");
     }
     
     private void OnTriggerEnter(Collider other)
