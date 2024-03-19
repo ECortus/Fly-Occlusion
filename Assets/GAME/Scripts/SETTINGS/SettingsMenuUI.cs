@@ -10,11 +10,15 @@ public class SettingsMenuUI : MonoBehaviour
     {
         menu.SetActive(true);
         Time.timeScale = 0f;
+        
+        GameManager.Instance.ShowInterstationalAd();
     }
 
     public void Close()
     {
         menu.SetActive(false);
         Time.timeScale = 1f;
+        
+        GameManager.Instance.ShowInterstationalAd();
     }
 }

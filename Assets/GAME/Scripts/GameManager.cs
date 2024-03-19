@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using AppsFlyerSDK;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using GAME.Scripts.MONETIZATION;
 using Unity.VisualScripting;
 using Zenject;
 
@@ -90,7 +91,15 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (!Tutorial.Instance.Completed) OnMergeGame += CheckTutorial;
+        if (!Tutorial.Instance.Completed)
+        {
+            OnMergeGame += CheckTutorial;
+        }
+        else
+        {
+            AdsManager.ToggleBanner(true, MaxSdkBase.BannerPosition.BottomCenter);
+        }
+        
         MergeGame();
     }
 
@@ -103,6 +112,7 @@ public class GameManager : MonoBehaviour
         else
         {
             OnMergeGame -= CheckTutorial;
+            AdsManager.ToggleBanner(true, MaxSdkBase.BannerPosition.BottomCenter);
         }
     }
     
@@ -151,5 +161,15 @@ public class GameManager : MonoBehaviour
         GameFinish();
         
         VibrationController.Instance.VibrateHeavy();
+
+        ShowInterstationalAd();
+    }
+    
+    public void ShowInterstationalAd()
+    {
+        if (Tutorial.Instance.Completed)
+        {
+            AdsManager.ShowInter("FullScreen");
+        }
     }
 }

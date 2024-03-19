@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using GAME.Scripts.MONETIZATION;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class UpgradeButtonUI : MonoBehaviour
@@ -16,15 +18,15 @@ public class UpgradeButtonUI : MonoBehaviour
 
     private int currentCost => upObject.Cost;
 
-    // private bool HaveAdRV = false;
+    private bool HaveAdRV = false;
 
     void Awake()
     {
-        // GameManager.OnMergeGame += RefreshAdRV;
+        GameManager.OnMergeGame += RefreshAdRV;
         GameManager.OnMergeGame += Refresh;
         Gem.OnValueChange += Refresh;
         
-        // RefreshAdRV();
+        RefreshAdRV();
         Refresh();
     }
 
@@ -41,16 +43,19 @@ public class UpgradeButtonUI : MonoBehaviour
 
     public void OnButtonClickRV()
     {
-        // HaveAdRV = false;
-            
+        AdsManager.EResultCode result = AdsManager.ShowRewarded(gameObject, null, "FullScreen");
+        if (result != AdsManager.EResultCode.OK) return;
+        
+        HaveAdRV = false;
+        
         upObject.Action();
         Refresh();
     }
 
-    // void RefreshAdRV()
-    // {
-    //     HaveAdRV = Tutorial.Instance.Completed;
-    // }
+    void RefreshAdRV()
+    {
+        HaveAdRV = Tutorial.Instance.Completed;
+    }
     
     public void Refresh()
     {
@@ -83,12 +88,12 @@ public class UpgradeButtonUI : MonoBehaviour
 
     void ChangeObject(bool state)
     {
-        // noObject.SetActive(!state && !HaveAdRV);
-        // adObject.SetActive(!state && HaveAdRV);
-        //
-        // enoughObject.SetActive(state);
+        noObject.SetActive(!state && !HaveAdRV);
+        adObject.SetActive(!state && HaveAdRV);
         
-        noObject.SetActive(!state);
         enoughObject.SetActive(state);
+        
+        // noObject.SetActive(!state);
+        // enoughObject.SetActive(state);
     }
 }

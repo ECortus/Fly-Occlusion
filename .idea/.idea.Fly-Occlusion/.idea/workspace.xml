@@ -5,585 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d5789b-0dc4-4a46-92c4-4ad4acc84d0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fly-Occlusion/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/Grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/LaunchPointerMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/LaunchPointerMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/LaunchRope.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/LaunchRope.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/playerMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/playerMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/powerline 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/powerline 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/powerline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/powerline.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/MAXCustomSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/MAXCustomSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Fly-Occlusion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fly-Occlusion/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture_parts.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture_parts.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/SDK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/SDK.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/PLAY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/PLAY.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GemPickUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GemPickUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/PreGameSceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/PreGameSceneController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/UpgradeButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/UpgradeButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/Upgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/Upgrades.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/GetPartUpgrade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/GetPartUpgrade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Tutorial/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Tutorial/Tutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Boxophobic.SkyboxCubemapExtended.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedHub.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedShaderGUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/SkyboxExtendedWindows.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Editor/Version.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Functions/Compute Rotation Y.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Blend.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Skybox Cubemap Extended/Core/Shaders/Skybox Cubemap Extended.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/User.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/User/User.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/User/User.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Boxophobic.Utils.Editor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Constants.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Constants/Constants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/SettingsUtils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/SettingsUtils/LoadSettingsData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/SettingsUtils/SaveSettingsData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawInspectorCategory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledGUI/DrawWindowCategory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledBannerDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledButtonDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledCategoryDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledEnumDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledIndentDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledLayersDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMaskDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledMessageDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledRangeOptionsDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledSpaceDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTextDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledInspector/StyledTexturePreviewDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledBannerDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledButtonDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledCategoryDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledDiffusionMaterialDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEmissiveIntensityDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledEnumDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledIndentDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledInteractiveDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledLayersDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMaskDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledMessageDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledOptionsSliderDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledRemapSliderDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledSpaceDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledTextureSingleLineDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledToggleDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMaterial/StyledVectorDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMono.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMono/StyledMonoBehaviourEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/StyledMono/StyledScriptableObjectEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Version.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Editor/Version.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/Boxophobic.Utils.Scripts.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/SettingsUtils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/SettingsUtils/SettingsData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledGizmos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledGizmos/StyledLabelGizmo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledBanner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledCategory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledEnum.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledIndent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledInteractive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledLayers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMask.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledMessage.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledRangeOptions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledSpace.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledInspector/StyledTexturePreview.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledMono.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledMonoBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Scripts/StyledMono/StyledScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Utils.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/BOXOPHOBIC/Utils/Utils.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/ReadMe.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Basic URP.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Basic URP.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Anime Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Anime Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Combined.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Combined.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Flat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Flat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Height Colors + Shadow Overlay.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Height Colors + Shadow Overlay.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/MatCap + Rim.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/MatCap + Rim.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Normal Map.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Normal Map.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Plant Sway.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Plant Sway.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Specular Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Specular Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Three Layers.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/Materials/Three Layers.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/UniversalRenderPipelineAsset.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/UniversalRenderPipelineAsset.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/UniversalRenderPipelineAsset_Renderer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic URP/UniversalRenderPipelineAsset_Renderer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Basic.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Basic.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Anime Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Anime Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Combined.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Combined.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Flat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Flat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Height Colors + Shadow Overlay.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Height Colors + Shadow Overlay.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/MatCap + Rim.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/MatCap + Rim.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Normal Map.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Normal Map.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Plant Sway.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Plant Sway.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Specular Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Specular Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Three Layers.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Materials/Three Layers.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/Clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/Clouds.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/Moss_Albedo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/Moss_Albedo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/SmallStones_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/SmallStones_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/SmallStones_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Basic/Textures/SmallStones_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-0_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-0_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-1_comp_dir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-1_comp_light.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Dropship/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_01_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_01_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_02_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_02_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_03_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_03_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_04_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_04_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_05_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Materials/Dropship_05_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Models/Dropship.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Models/Dropship.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Emission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Emission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_01_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Emission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Emission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_02_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_03_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_04_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Dropship Baked/Textures/Dropship_05_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Ellen.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Ellen.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Head.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Blue Glass/Head.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Eye.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Eye.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Head.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Ice Furnace/Head.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Body_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Body_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Eyes_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Eyes_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Hair_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Hair_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Head_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Head_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Tear_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Materials/Textured/Ellen_Tear_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Models/@EllenIdle.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Models/@EllenIdle.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Models/Ellen.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Models/Ellen.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Emission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Emission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_MetallicSmooth.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_MetallicSmooth.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Body_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Eye_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Eye_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Hair_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Hair_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Hair_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Hair_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Head_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Head_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Head_Normal.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_Head_Normal.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_head_SpecularSmoothness.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Ellen/Textures/Ellen_head_SpecularSmoothness.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/BasicMaterial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/BasicMaterial.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Blue Glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Blue Glass.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Clay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Clay.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Droplet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Droplet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Frame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Frame.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Hair.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Hair.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/How to create MatCaps.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/How to create MatCaps.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Ice Furnace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Ice Furnace.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Jelly Bean.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Jelly Bean.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Light Forge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Light Forge.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Metal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Metal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Metal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Metal2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/ReflectedMetal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/ReflectedMetal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Reflection 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Reflection 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Reflection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Reflection.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Satin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Satin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Skin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Soft White.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/MatCap Textures/Soft White.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Materials/VegetationMedium01_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Materials/VegetationMedium01_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Materials/VegetationMedium03_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Materials/VegetationMedium03_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Models/VegetationMedium01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Models/VegetationMedium01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Models/VegetationMedium03_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Models/VegetationMedium03_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Plants.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Plants.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Emission.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Emission.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Normals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Normals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium01_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Albedo.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Albedo.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Normals.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Normals.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Occlusion.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Plants Sway/Textures/VegetationMedium03_Occlusion.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Materials/Terrain Triplanar.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Materials/Terrain Triplanar.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffBig02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffBig02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffEdge01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffEdge01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffEdge02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/CliffEdge02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/RockLedge01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Models/RockLedge01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Terrain.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Triplanar Terrain/Terrain.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/body no outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/body no outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/body.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/body.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_L1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_L1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_R1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_R1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_base.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eye_base.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eyeline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/eyeline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/face.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/face.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/mat_cheek.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/mat_cheek.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/skin1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Materials/skin1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Models/unitychan.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Models/unitychan.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Prefabs/Unity-chan.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Prefabs/Unity-chan.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01_NRM.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01_NRM.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01_SPEC.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/body_01_SPEC.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/cheek_00.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/cheek_00.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eye_iris_L_00.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eye_iris_L_00.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eye_iris_R_00.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eye_iris_R_00.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eyeline_00.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/eyeline_00.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/face_00.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/face_00.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01_NRM.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01_NRM.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01_SPEC.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/hair_01_SPEC.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/skin_01.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Textures/skin_01.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Unity-chan.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Unity-chan Cel/Unity-chan.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Materials/Vertex Paint RGB.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Materials/Vertex Paint RGB.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Materials/Vertex Paint.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Materials/Vertex Paint.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Models/PolybrushMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Models/PolybrushMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Prefabs/Ground.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Prefabs/Ground.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_042_BaseColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_042_BaseColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_042_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_042_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_Moss_001_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_Moss_001_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_Moss_001_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Textures/Rock_Moss_001_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Vertex Paint Ground.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Samples/Vertex Paint Ground/Vertex Paint Ground.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadeGUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadeGUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadeMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadeMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadePreprocess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/Editor/OmniShadePreprocess.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/OmniShade.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/OmniShade.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/OmniShadeAnimateTexture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Scripts/OmniShadeAnimateTexture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade Triplanar URP.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade Triplanar URP.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade Triplanar.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade Triplanar.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/OmniShade/Shaders/OmniShade.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/AndroidManifest.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SETTINGS/SettingsMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SETTINGS/SettingsMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaxSdk/Resources/AppLovinSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MaxSdk/Resources/AppLovinSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/launcherTemplate.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/launcherTemplate.gradle.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/proguard-user.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/proguard-user.txt.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.services.core/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.services.core/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.1r_BurstDebugInformation_DoNotShip/tempburstlibs/arm64-v8a/lib_burst_generated.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.1r_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.32_BurstDebugInformation_DoNotShip/tempburstlibs/arm64-v8a/lib_burst_generated.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.32_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.53_BurstDebugInformation_DoNotShip/tempburstlibs/arm64-v8a/lib_burst_generated.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_build/FlyOcclusion_v6.53_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -593,39 +32,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/41914444499f4996a3e6af79cf6c1fdb574b98/c6/a4d72bc9/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/ApplovinComp.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dNlWqWjjV5s5VhSeOiVOKMCLn1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\user\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
-      "C:\\Users\\user\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
-      "C:\\Users\\user\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\user\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache&quot;,
+      &quot;C:\\Users\\user\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache&quot;,
+      &quot;C:\\Users\\user\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\PROGRAMS\UNITY_EDITOR\2022.3.18f1\Editor\Unity.exe" />
@@ -673,6 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709856452163</updated>
       <workItem from="1709856455895" duration="292000" />
+      <workItem from="1710362156810" duration="5172000" />
+      <workItem from="1710425764300" duration="3773000" />
     </task>
     <servers />
   </component>

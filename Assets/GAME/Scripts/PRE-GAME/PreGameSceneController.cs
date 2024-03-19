@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using GAME.Scripts.MONETIZATION;
 
 public class PreGameSceneController : MonoBehaviour
 {
@@ -67,6 +68,8 @@ public class PreGameSceneController : MonoBehaviour
         
         Part.SetBlock(false);
         ChangeObjects(1);
+        
+        GameManager.Instance.ShowInterstationalAd();
     }
     
     private async void MoveToFly()
@@ -86,6 +89,7 @@ public class PreGameSceneController : MonoBehaviour
         
         gameUI.SetActive(true);
         LaunchController.Blocked = false;
+        
         // ChangeObjects(2);
     }
 }
