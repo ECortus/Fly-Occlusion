@@ -58,6 +58,30 @@ public class MergeGrid : MonoBehaviour
             cell.UnRegistry();
         }
     }
+
+    public void RefreshPartsToPartsLevelUpgrade(int level)
+    {
+        Part part;
+        Part toSpawn;
+        
+        foreach (var VARIABLE in _cells)
+        {
+            if (VARIABLE && VARIABLE.Part && VARIABLE.Part.Type.Category != PartCategory.Cabin
+                && VARIABLE.Part.Type.Category != PartCategory.Grid)
+            {
+                if (VARIABLE.Part.Level < level)
+                {
+                    part = VARIABLE.Part;
+                    toSpawn = part.Type.GetPart(level);
+                    
+                    VARIABLE.UnRegistry();
+                    part.DestroyPart();
+                    
+                    SpawnPartToCell(toSpawn, VARIABLE);
+                }
+            }
+        }
+    }
     
     public int HavePartOfType(PartCategory type, int lvl = -1)
     {

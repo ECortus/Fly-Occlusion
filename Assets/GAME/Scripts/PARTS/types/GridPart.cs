@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 
 public class GridPart : Part
@@ -22,7 +23,7 @@ public class GridPart : Part
         if (other.gameObject.layer == LayerMask.NameToLayer("Hit"))
         {
             PlayerController.Instance.Stop();
-            GameManager.Instance.FinishGame();
+            GameManager.Instance.FinishGame("CRASH");
         }
     }
 }

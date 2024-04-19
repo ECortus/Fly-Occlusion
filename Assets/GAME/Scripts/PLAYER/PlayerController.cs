@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using AppsFlyerSDK;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Unity.VisualScripting;
@@ -192,15 +193,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void ForceFinish()
+    public void ForceFinish(string cause = "")
     {
         foreach (var VARIABLE in Parts)
         {
             VARIABLE.SetActions(false);
         }
         
-        Debug.Log("forced");
-        GameManager.Instance.FinishGame();
+        GameManager.Instance.FinishGame(cause == "" ? "LAND" : cause);
     }
 
     void ResetMouse()

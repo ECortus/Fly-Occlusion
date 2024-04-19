@@ -225,6 +225,7 @@ public class Tutorial : MonoBehaviour
         IterationsCompleted = 1;
         
         AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-01", "Boost-Tutorial");
+        GameAnalyticsEventsSuite.EngagementWithCore("Tutorial_boost_connect_iteration");
     }
     
     private async void SecondIteration()
@@ -347,6 +348,7 @@ public class Tutorial : MonoBehaviour
         IterationsCompleted = 2;
         
         AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-03", "Wheels-Tutorial");
+        GameAnalyticsEventsSuite.EngagementWithCore("Tutorial_wheels_connect_iteration");
     }
     
     private async void ThirdIteration()
@@ -419,6 +421,7 @@ public class Tutorial : MonoBehaviour
         IterationsCompleted = 3;
         
         AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-04", "Wings-Tutorial");
+        GameAnalyticsEventsSuite.EngagementWithCore("Tutorial_wings_connect_iteration");
     }
     
     private async void FourthIteration()
@@ -470,6 +473,7 @@ public class Tutorial : MonoBehaviour
         IterationsCompleted = 4;
         
         AppsFlyerEventsSuite.AF_TUTORIAL_COMPLETION("MAIN", "ID-05", "Additional-Block-Tutorial");
+        GameAnalyticsEventsSuite.EngagementWithCore("Tutorial_additional_block_connect_iteration");
     }
 
     public bool PlaneIterationComplete
@@ -498,6 +502,8 @@ public class Tutorial : MonoBehaviour
         HandMove(rotatePos1.position, rotatePos2.position);
 
         await UniTask.WaitUntil(() => Input.GetMouseButtonDown(0));
+        
+        GameAnalyticsEventsSuite.EngagementWithCore("Tutorial_plane_iteration");
         
         rotateObj.SetActive(false);
         

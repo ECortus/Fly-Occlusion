@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
@@ -41,6 +42,11 @@ public class WinMenu : MonoBehaviour
         
         goldReward = rewards.GoldReward(flyLength, multiplier);
         gemReward = rewards.GemReward(flyLength, multiplier);
+
+        string height = Mathf.RoundToInt(flyLength).ToString() + "_m";
+        AppsFlyerEventsSuite.AF_LEVEL_ACHIEVED("MAIN", height);
+        
+        GameAnalyticsEventsSuite.LevelProgressionComplete(height);
         
         HideMenu();
         menuObject.SetActive(true);
@@ -61,8 +67,6 @@ public class WinMenu : MonoBehaviour
 
         getRewardUI.On();
         getRewardUI.transform.DOScale(Vector3.one, 0.35f);
-
-        Reward();
     }
 
     void HideMenu()
@@ -94,7 +98,7 @@ public class WinMenu : MonoBehaviour
     
     public void OffWithReward(int multiple)
     {
-        for (int i = 0; i < multiple - 1; i++)
+        for (int i = 0; i < multiple; i++)
         {
             Reward();
         }
@@ -104,7 +108,10 @@ public class WinMenu : MonoBehaviour
     
     public void OffWithoutReward()
     {
+        Reward();
+        
         Off();
+        GameManager.Instance.ShowInterstationalAd();
     }
 
     private async void Off()
@@ -117,5 +124,6 @@ public class WinMenu : MonoBehaviour
         menuObject.SetActive(false);
         
         GameManager.Instance.MergeGame();
+        GameAnalyticsEventsSuite.EngagementWithCore("Back_to_main_screen");
     }
 }

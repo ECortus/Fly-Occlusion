@@ -7,9 +7,9 @@ public class GameAnalyticsApplovinSubscribe : MonoBehaviour
 {
     void Start()
     {
-        MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) => {
-            // Show Mediation Debugger
-            MaxSdk.ShowMediationDebugger();
-        };
+        // MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) => {
+        //     // Show Mediation Debugger
+        //     MaxSdk.ShowMediationDebugger();
+        // };
     }
 }

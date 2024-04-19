@@ -25,27 +25,33 @@ MonoBehaviour:
   UserMessagesSubmitted: 0
   UserMessagesFailed: 0
   CustomArea: 
-  gameKey: []
-  secretKey: []
-  Build: []
-  SelectedPlatformOrganization: []
-  SelectedPlatformStudio: []
-  SelectedPlatformGame: []
-  SelectedPlatformGameID: 
-  SelectedOrganization: 
-  SelectedStudio: 
-  SelectedGame: 
+  gameKey:
+  - d5b354f326b95fef567aad24796b5858
+  secretKey:
+  - c22ad98f813fe31a01ad5273992273b7c09fb505
+  Build:
+  - 1
+  SelectedPlatformOrganization:
+  - R&H
+  SelectedPlatformStudio:
+  - R&H
+  SelectedPlatformGame:
+  - Merge Fly
+  SelectedPlatformGameID: 1c5c0400
+  SelectedOrganization: 02000000
+  SelectedStudio: 01000000
+  SelectedGame: 01000000
   NewVersion: 
   Changes: 
   SignUpOpen: 1
-  StudioName: 
-  GameName: 
-  OrganizationName: 
-  OrganizationIdentifier: 
-  EmailGA: 
-  IntroScreen: 1
+  StudioName: R&H
+  GameName: Merge Fly
+  OrganizationName: R&H
+  OrganizationIdentifier: rh
+  EmailGA: mankevich.rostislav@gmail.com
+  IntroScreen: 0
   InfoLogEditor: 1
-  InfoLogBuild: 1
+  InfoLogBuild: 0
   VerboseLogBuild: 0
   UseManualSessionHandling: 0
   SendExampleGameDataToMyGame: 0
@@ -55,13 +61,13 @@ MonoBehaviour:
   CustomDimensions03: []
   ResourceItemTypes: []
   ResourceCurrencies: []
-  LastCreatedGamePlatform: 0
-  Platforms: 
-  CurrentInspectorState: 0
+  LastCreatedGamePlatform: -1
+  Platforms: 0b000000
+  CurrentInspectorState: 1
   ClosedHints: 
   DisplayHints: 0
   DisplayHintsScrollState: {x: 0, y: 0}
-  Logo: {fileID: 0}
+  Logo: {fileID: 2800000, guid: 98df8f9c5678a4e5d964caa1244e8958, type: 3}
   UpdateIcon: {fileID: 0}
   InfoIcon: {fileID: 0}
   DeleteIcon: {fileID: 0}
@@ -75,8 +81,8 @@ MonoBehaviour:
   iosIcon: {fileID: 0}
   macIcon: {fileID: 0}
   windowsPhoneIcon: {fileID: 0}
-  UsePlayerSettingsBuildNumber: 0
-  SubmitErrors: 1
+  UsePlayerSettingsBuildNumber: 1
+  SubmitErrors: 0
   NativeErrorReporting: 0
   MaxErrorCount: 10
   SubmitFpsAverage: 0
@@ -84,7 +90,7 @@ MonoBehaviour:
   IncludeGooglePlay: 1
   FpsCriticalThreshold: 20
   FpsCirticalSubmitInterval: 1
-  PlatformFoldOut: 
+  PlatformFoldOut: 01
   CustomDimensions01FoldOut: 0
   CustomDimensions02FoldOut: 0
   CustomDimensions03FoldOut: 0
@@ -93,6 +99,6 @@ MonoBehaviour:
   EnableMemoryHistogram: 0
   EnableHealthEvent: 0
   EnableFPSHistogram: 0
-  EnableSDKInitEvent: 0
+  EnableSDKInitEvent: 1
   EnableHardwareTracking: 0
   EnableMemoryTracking: 0

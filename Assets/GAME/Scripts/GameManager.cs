@@ -70,10 +70,12 @@ public class GameManager : MonoBehaviour
 
     [Space] 
     [SerializeField] private float debugTimeScale = 1;
+    [SerializeField] private bool UseDebugFPS = false;
+    [SerializeField] private int DebugFPS = 15;
 
     [Inject] private void Awake()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = !UseDebugFPS ? 60 : DebugFPS;
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
         
         Time.timeScale = debugTimeScale;
@@ -89,7 +91,7 @@ public class GameManager : MonoBehaviour
         OnGameFinish += RecordMaxFlyLength;
     }
 
-    void Start()
+    async void Start()
     {
         if (!Tutorial.Instance.Completed)
         {
@@ -101,6 +103,25 @@ public class GameManager : MonoBehaviour
         }
         
         MergeGame();
+
+        await UniTask.WaitUntil(() =>
+        {
+            return MaxSdk.IsInitialized() && MaxSdk.IsUserConsentSet() && !MaxSdk.IsDoNotSell() && !MaxSdk.IsAgeRestrictedUser();
+        });
+        GameAnalyticsEventsSuite.GameReady();
+
+        string key = "";
+        await UniTask.WaitUntil(() =>
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                key = "TOUCH_INPUT";
+                return true;
+            }
+
+            return false;
+        });
+        GameAnalyticsEventsSuite.FirstInteraction(key);
     }
 
     void CheckTutorial()
@@ -140,6 +161,8 @@ public class GameManager : MonoBehaviour
         GameStarted = true;
         GameStart();
         
+        GameAnalyticsEventsSuite.LevelProgressionStart();
+        
         VibrationController.Instance.VibrateHeavy();
     }
 
@@ -151,18 +174,18 @@ public class GameManager : MonoBehaviour
         }
     }
     
-    public void FinishGame()
+    public void FinishGame(string cause)
     {
         if (!GameStarted) return;
         
-        AppsFlyerEventsSuite.AF_LEVEL_ACHIEVED("MAIN", ((int)(FlyHeight)).ToString() + " m");
+        GameAnalyticsEventsSuite.EngagementWithCore($"End_flying_by_{cause.ToUpper()}");
         
         GameStarted = false;
         GameFinish();
         
         VibrationController.Instance.VibrateHeavy();
 
-        ShowInterstationalAd();
+        // ShowInterstationalAd();
     }
     
     public void ShowInterstationalAd()
@@ -171,5 +194,10 @@ public class GameManager : MonoBehaviour
         {
             AdsManager.ShowInter("FullScreen");
         }
+    }
+
+    private void OnDestroy()
+    {
+        GameAnalyticsEventsSuite.GameEnd();
     }
 }

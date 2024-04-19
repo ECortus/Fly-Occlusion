@@ -2,6 +2,7 @@
 
 using System;
 using GameAnalyticsSDK;
+using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {

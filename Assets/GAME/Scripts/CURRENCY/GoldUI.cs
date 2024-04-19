@@ -18,5 +18,7 @@ public class GoldUI : FloatingCounter
         
         Instance = this;
         Gold.OnValueChange += Refresh;
+        
+        GameManager.OnMergeGame += Refresh;
     }
 }

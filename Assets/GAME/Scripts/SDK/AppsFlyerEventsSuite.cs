@@ -157,7 +157,7 @@ namespace AppsFlyerSDK
         public static void AF_AD_REVENUE(string country, string id, string category, string placement, string payload = "")
         {
             Dictionary<string, string> eventParameters3 = new Dictionary<string, string>();
-            eventParameters3.Add("country", country);
+            // eventParameters3.Add("country", country);
             eventParameters3.Add("ad_unit", id);
             eventParameters3.Add("ad_type", category);
             eventParameters3.Add("placement", placement);

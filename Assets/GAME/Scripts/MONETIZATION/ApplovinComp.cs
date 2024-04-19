@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using GAME.Scripts.MONETIZATION;
 using UnityEngine;
 using UnityEngine.Events;
@@ -137,6 +138,8 @@ public class AppLovinComp : MonoBehaviour
             if (bShow) {
                 MaxSdk.UpdateBannerPosition(BannerID, NewPosition);
                 MaxSdk.ShowBanner(BannerID);
+                
+                GameAnalyticsEventsSuite.AdInteractionBanner("ID_" + BannerID, NewPosition.ToString());
             }
             else {
                 MaxSdk.HideBanner(BannerID);
@@ -326,8 +329,13 @@ public class AppLovinComp : MonoBehaviour
     #region Show Ads
 
     public bool ShowInterstitial() {
-        if (bInitialized && MaxSdk.IsInterstitialReady(InterstitialID)) {
+        if (bInitialized && MaxSdk.IsInterstitialReady(InterstitialID)) 
+        {
             MaxSdk.ShowInterstitial(InterstitialID);
+            
+            AppsFlyerEventsSuite.AF_AD_REVENUE("", InterstitialID, "Interstitial", "Fullscreen");
+            GameAnalyticsEventsSuite.AdInteractionInterstitial("ID_" + InterstitialID);
+            
             return true;
         }
 
@@ -335,8 +343,12 @@ public class AppLovinComp : MonoBehaviour
     }
 
     public void ShowRewarded() {
-        if (bInitialized && MaxSdk.IsRewardedAdReady(RewardedID)) {
+        if (bInitialized && MaxSdk.IsRewardedAdReady(RewardedID)) 
+        {
             MaxSdk.ShowRewardedAd(RewardedID);
+            
+            AppsFlyerEventsSuite.AF_AD_REVENUE("", RewardedID, "Rewarded", "Fullscreen");
+            GameAnalyticsEventsSuite.AdInteractionRewardedVideo("ID_" + RewardedID);
         }
     }
 

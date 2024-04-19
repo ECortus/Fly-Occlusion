@@ -234,6 +234,44 @@ public class PlayerGrid : MonoBehaviour
             }
         }
     }
+    
+    public void RefreshPartsToPartsLevelUpgrade(int level)
+    {
+        Part part;
+        Part toSpawn;
+        
+        foreach (var VARIABLE in _cells)
+        {
+            if (VARIABLE && VARIABLE.Part)
+            {
+                if (VARIABLE.Part.Type.Category != PartCategory.Cabin
+                    && VARIABLE.Part.Type.Category != PartCategory.Grid && VARIABLE.Part.Level < level)
+                {
+                    part = VARIABLE.Part;
+                    toSpawn = part.Type.GetPart(level);
+                    
+                    VARIABLE.UnRegistry();
+                    part.DestroyPart();
+                    
+                    SpawnPartToCell(toSpawn, VARIABLE);
+                }
+                
+                if (VARIABLE.AdditionalPart)
+                {
+                    if (VARIABLE.AdditionalPart.Level < level)
+                    {
+                        part = VARIABLE.AdditionalPart;
+                        toSpawn = part.Type.GetPart(level);
+                    
+                        VARIABLE.UnRegistryAdditional();
+                        part.DestroyPart();
+                    
+                        SpawnAdditionalPartToCell(toSpawn, VARIABLE);
+                    }
+                }
+            }
+        }
+    }
 
     public void SpawnPartToCell(Part partPref, GridCell cell, bool merged = false)
     {

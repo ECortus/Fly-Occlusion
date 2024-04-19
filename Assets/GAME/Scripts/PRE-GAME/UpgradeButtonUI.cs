@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
+using Cysharp.Threading.Tasks;
 using GAME.Scripts.MONETIZATION;
 using TMPro;
 using UnityEngine;
@@ -32,6 +34,7 @@ public class UpgradeButtonUI : MonoBehaviour
 
     public void OnButtonClick()
     {
+        GameAnalyticsEventsSuite.EngagementWithCore($"Buy_upgrade_{upObject.name}_by_GEM");
         if (Gem.Instance.Value >= currentCost)
         {
             Gem.Instance.Minus(currentCost);
@@ -43,13 +46,19 @@ public class UpgradeButtonUI : MonoBehaviour
 
     public void OnButtonClickRV()
     {
-        AdsManager.EResultCode result = AdsManager.ShowRewarded(gameObject, null, "FullScreen");
-        if (result != AdsManager.EResultCode.OK) return;
+        GameAnalyticsEventsSuite.EngagementWithCore($"Buy_upgrade_{upObject.name}_by_AD");
+        AdsManager.ShowRewarded(gameObject, OnFinishAd, "FullScreen");
+    }
+
+    private void OnFinishAd(bool result)
+    {
+        if (result)
+        {
+            HaveAdRV = false;
         
-        HaveAdRV = false;
-        
-        upObject.Action();
-        Refresh();
+            upObject.Action();
+            Refresh();
+        }
     }
 
     void RefreshAdRV()

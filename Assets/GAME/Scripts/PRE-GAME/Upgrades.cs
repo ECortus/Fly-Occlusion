@@ -52,6 +52,10 @@ public static class Upgrades
     public static void IncreasePartsBuyLevel()
     {
         PartsBuyLevel++;
+        
+        MergeGrid.Instance.RefreshPartsToPartsLevelUpgrade(PartsBuyLevel);
+        PlayerGrid.Instance.RefreshPartsToPartsLevelUpgrade(PartsBuyLevel);
+        
         AppsFlyerEventsSuite.AF_BONUS_CLAIMED($"PartsBuyLevel-Upgrade-LVL-{PartsBuyLevel.ToString()}");
     }
     public static void ResetPartsBuyLevel() => PartsBuyLevel = 0;

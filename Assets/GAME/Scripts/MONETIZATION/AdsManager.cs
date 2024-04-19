@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using GAME.Scripts.MONETIZATION;
 using UnityEngine;
 using UnityEngine.Events;

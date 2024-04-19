@@ -17,5 +17,7 @@ public class GemUI : FloatingCounter
         
         Instance = this;
         Gem.OnValueChange += Refresh;
+        
+        GameManager.OnMergeGame += Refresh;
     }
 }

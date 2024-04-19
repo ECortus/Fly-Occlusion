@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using AppsFlyerSDK;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -27,12 +28,14 @@ public class MaxConsent : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    private void Awake()
+    private async void Awake()
     {
         MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) => 
         {
             // AppLovin SDK is initialized, start loading ads
         };
+
+        await UniTask.WaitUntil(() => GameAnalyticsSDK.GameAnalytics.Initialized);
 
         MaxSdk.SetSdkKey("5AAhiuFzwRBZXL6NRkfMQIFE9TpJ-fX4qinXb1VVTh4_1ANSv1qJJ3TSWLnV_Jaq1LLcMr7rXCqTMC0FDqZXu6");
         // MaxSdk.SetUserId("45erdr45hhy5kioi09utmc5wqsopiu563");
@@ -75,6 +78,8 @@ public class MaxConsent : MonoBehaviour, IPointerClickHandler
     private void OnButtonClick()
     {
         AppsFlyerEventsSuite.AF_COMPLETE_REGISTRATION("MaxSDK-Accept-Consent");
+        GameAnalyticsEventsSuite.UserConsentInteraction();
+        
         Accept();
     }
 
@@ -87,6 +92,7 @@ public class MaxConsent : MonoBehaviour, IPointerClickHandler
         Accepted = true;
         
         AppsFlyerEventsSuite.AF_LOGIN();
+        GameAnalyticsEventsSuite.AppInit();
         
         Destroy(gameObject);
     }

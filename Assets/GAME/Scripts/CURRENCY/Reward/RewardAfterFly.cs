@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
+using GAME.Scripts.MONETIZATION;
 using UnityEngine;
 
 public class RewardAfterFly : MonoBehaviour
@@ -131,7 +133,7 @@ public class RewardAfterFly : MonoBehaviour
             }
             
             Angle = Mathf.MoveTowards(Angle, Target, speed * Time.deltaTime);
-            SetMultiplier();
+            // SetMultiplier();
             
             anglesRef.localEulerAngles = new Vector3(0, 0, Angle);
         }
@@ -140,22 +142,42 @@ public class RewardAfterFly : MonoBehaviour
     void SetMultiplier()
     {
         float angle = AngleOffset;
+        
+        float fullProbability = 0;
+            
+        foreach (var VARIABLE in Slots)
+        {
+            fullProbability += VARIABLE.Probability;
+        }
 
         foreach (var VARIABLE in Slots)
         {
-            if (Angle >= angle && Angle <= angle + fullAngle * VARIABLE.Probability)
+            if (Angle >= angle && Angle <= angle + fullAngle * VARIABLE.Probability / fullProbability)
             {
                 Multiplier = VARIABLE.Multiplier;
                 break;
             }
             
-            angle += fullAngle * VARIABLE.Probability;
+            angle += fullAngle * VARIABLE.Probability / fullProbability;
         }
     }
     
     public void GetReward()
     {
-        _winMenu.OffWithReward(Multiplier);
+        AdsManager.ShowRewarded(gameObject, OnFinishAd, "FullScreen");
+    }
+    
+    private void OnFinishAd(bool result)
+    {
+        if (result)
+        {
+            SetMultiplier();
+            _winMenu.OffWithReward(Multiplier);
+        }
+        else
+        {
+            _winMenu.OffWithoutReward();
+        }
     }
 
     private void OnDrawGizmos()

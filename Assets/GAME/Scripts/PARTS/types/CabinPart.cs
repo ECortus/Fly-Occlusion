@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using UnityEngine;
 
 public class CabinPart : Part
@@ -51,7 +52,7 @@ public class CabinPart : Part
         if (other.gameObject.layer == LayerMask.NameToLayer("Hit"))
         {
             PlayerController.Instance.Stop();
-            GameManager.Instance.FinishGame();
+            GameManager.Instance.FinishGame("CRASH");
         }
     }
 }

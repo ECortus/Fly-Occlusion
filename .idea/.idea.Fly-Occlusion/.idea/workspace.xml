@@ -5,23 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d5789b-0dc4-4a46-92c4-4ad4acc84d0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/MAXCustomSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/MAXCustomSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/GameAnalyticsEventsSuite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/GameAnalyticsEventsSuite.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Fly-Occlusion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Fly-Occlusion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture_parts.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Materials/standart_texture_parts.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/SDK.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/SDK.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/PLAY.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/PLAY.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GemUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GemUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GoldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/GoldUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/Reward/RewardAfterFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/CURRENCY/Reward/RewardAfterFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/MERGE/MergeGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MERGE/MergeGrid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/AdsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/ApplovinComp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/ApplovinComp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/Part.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/Part.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/types/CabinPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/types/CabinPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/types/GridPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PARTS/types/GridPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PLAYER/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PLAYER/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PLAYER/PlayerGrid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PLAYER/PlayerGrid.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/PreGameSceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/PreGameSceneController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/UpgradeButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/UpgradeButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SETTINGS/SettingsMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SETTINGS/SettingsMenuUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MaxSdk/Resources/AppLovinSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MaxSdk/Resources/AppLovinSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/gradleTemplate.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/mainTemplate.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.services.core/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.services.core/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/Upgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/PRE-GAME/Upgrades.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/AppsFlyerEventsSuite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/AppsFlyerEventsSuite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/GameAnalyticsApplovinSubscribe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/GameAnalyticsApplovinSubscribe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/IDFAObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/IDFAObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/MaxConsent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/SDK/MaxConsent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/WinMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/UI/WinMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/VibrationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/VibrationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Tutorial/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Tutorial/Tutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameAnalytics/Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameAnalytics/Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +47,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/41914444499f4996a3e6af79cf6c1fdb574b98/c6/a4d72bc9/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/e4e9310d6e504b9195be7c4cd0c0cfcd574c30/2b/abc66741/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/LEVEL/WinColliding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GAME/Scripts/MONETIZATION/ApplovinComp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,6 +73,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -78,6 +94,22 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\PROGRAMS\UNITY_EDITOR\2022.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath E:\MISC\UNITY\Fly-Occlusion -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\MISC\UNITY\Fly-Occlusion" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="E:\PROGRAMS\UNITY_EDITOR\2022.3.18f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\MISC\UNITY\Fly-Occlusion -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\MISC\UNITY\Fly-Occlusion" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\PROGRAMS\UNITY_EDITOR\2022.3.18f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\MISC\UNITY\Fly-Occlusion -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -87,6 +119,26 @@
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -118,6 +170,18 @@
       <workItem from="1709856455895" duration="292000" />
       <workItem from="1710362156810" duration="5172000" />
       <workItem from="1710425764300" duration="3773000" />
+      <workItem from="1710859664725" duration="2447000" />
+      <workItem from="1710864146469" duration="895000" />
+      <workItem from="1710943498629" duration="2023000" />
+      <workItem from="1711041910820" duration="594000" />
+      <workItem from="1711060358878" duration="2226000" />
+      <workItem from="1711293157588" duration="74000" />
+      <workItem from="1712082349445" duration="756000" />
+      <workItem from="1713034028510" duration="4699000" />
+      <workItem from="1713438060094" duration="1595000" />
+      <workItem from="1713443900626" duration="6346000" />
+      <workItem from="1713513246295" duration="757000" />
+      <workItem from="1713554882282" duration="4665000" />
     </task>
     <servers />
   </component>

@@ -191,7 +191,7 @@ public abstract class Part : MonoBehaviour
         Body.isKinematic = true;
         Body.useGravity = false;
 
-        Body.interpolation = RigidbodyInterpolation.Extrapolate;
+        Body.interpolation = RigidbodyInterpolation.Interpolate;
         Body.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         
         Joint.connectedBody = PlayerController.Instance.Body;

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AppsFlyerSDK;
 using Cinemachine;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
@@ -64,6 +65,7 @@ public class PreGameSceneController : MonoBehaviour
 
         await UniTask.Delay(100);
         await UniTask.WaitUntil(() => !cameraBrain.IsBlending);
+        
         mergeUI.SetActive(true);
         
         Part.SetBlock(false);
